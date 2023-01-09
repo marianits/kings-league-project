@@ -1,9 +1,5 @@
 import * as cheerio from 'cheerio'
-import { readFile, writeFile } from 'node:fs/promises'
-import path from 'node:path'
-
-const DB_PATH = path.join(process.cwd(), './db/')
-const TEAMS = await readFile(`${DB_PATH}/teams.json`, 'utf-8').then(JSON.parse)
+import { TEAMS, PRESIDENTS, writeDBFile } from '../db/index.js'
 
 const URLS = {
   leaderBoard: 'https://kingsleague.pro/estadisticas/clasificacion/'
@@ -28,7 +24,11 @@ async function getLeaderBoard () {
     redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const getTeamFrom = ({ name }) => TEAMS.find(team => team.name === name)
+  const getTeamFrom = ({ name }) => {
+    const { presidentId, ...restOfTeam } = TEAMS.find((team) => team.name === name)
+    const president = PRESIDENTS.find((president) => president.id === presidentId)
+    return { ...restOfTeam, president }
+  }
 
   const cleanText = (text) => text
     .replace(/\t|\n|\s:/g, '')
@@ -64,4 +64,4 @@ async function getLeaderBoard () {
 const leaderBoard = await getLeaderBoard()
 
 //  process.cwd() devuelve el working directory desde el que se ejecuta el script
-await writeFile(`${DB_PATH}/leaderboard.json`, JSON.stringify(leaderBoard, null, 2), 'utf-8')
+await writeDBFile('leaderboard', leaderBoard)
