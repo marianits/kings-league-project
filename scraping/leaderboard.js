@@ -58,6 +58,7 @@ async function getLeaderBoard () {
     })
   })
 
+  console.log('Scrape was successfull')
   return leaderBoard
 }
 
