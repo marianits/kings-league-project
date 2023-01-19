@@ -41,6 +41,13 @@ app.get('/teams', (ctx) => {
   return ctx.json(teams)
 })
 
+app.get('/leaderboard/:teamId', (ctx) => {
+  const teamId = ctx.req.param('teamId')
+  const foundTeam = leaderboard.find((stats) => stats.team.id === teamId)
+
+  return foundTeam ? ctx.json(foundTeam) : ctx.json({ message: 'Team not found' }, 404)
+})
+
 app.get('/static/*', serveStatic({ root: './' }))
 
 export default app
