@@ -21,11 +21,11 @@ app.get('/', (ctx) => ctx.json([
   }
 ]))
 
-app.get('/leaderboard', (ctx) => {
+app.get('/leaderboard\\/?', (ctx) => {
   return ctx.json(leaderboard)
 })
 
-app.get('/presidents', (ctx) => {
+app.get('/presidents\\/?', (ctx) => {
   return ctx.json(presidents)
 })
 
@@ -37,7 +37,7 @@ app.get('/presidents/:id', (ctx) => {
     : ctx.json({ message: 'President not found' }, 404)
 })
 
-app.get('/teams', (ctx) => {
+app.get('/teams\\/?', (ctx) => {
   return ctx.json(teams)
 })
 
