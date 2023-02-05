@@ -57,7 +57,7 @@
   {
     "wins": 4,
     "loses": 1,
-    "scoredGoals": 7,
+    "scoredGoals": 10,
     "concededGoals": 6,
     "yellowCards": 6,
     "redCards": 0,
@@ -83,9 +83,9 @@
   },
   {
     "wins": 3,
-    "loses": -4,
+    "loses": 2,
     "scoredGoals": 15,
-    "concededGoals": 7,
+    "concededGoals": 12,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -110,7 +110,7 @@
   },
   {
     "wins": 3,
-    "loses": -1,
+    "loses": 2,
     "scoredGoals": 16,
     "concededGoals": 15,
     "yellowCards": 1,
@@ -223,64 +223,6 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 2,
-    "scoredGoals": 9,
-    "concededGoals": 16,
-    "yellowCards": 5,
-    "redCards": 0,
-    "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
-      "url": "",
-      "channel": "https://twitch.tv/rivers_gg",
-      "socialNetworks": [
-        "https://www.twitch.tv/rivers_gg",
-        "https://twitter.com/PIO_FC"
-      ],
-      "players": [],
-      "coach": "Gerardo Torrado",
-      "coachInfo": {},
-      "president": {
-        "id": "rivers",
-        "name": "Rivers",
-        "image": "rivers.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 0,
-    "loses": 5,
-    "scoredGoals": 11,
-    "concededGoals": 19,
-    "yellowCards": 3,
-    "redCards": 0,
-    "team": {
-      "id": "jijantes-fc",
-      "name": "Jijantes FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/jijantes.svg",
-      "url": "",
-      "channel": "https://twitch.tv/gerardromero",
-      "socialNetworks": [
-        "https://www.twitch.tv/gerardromero",
-        "https://www.instagram.com/jijantesfc/?hl=es",
-        "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
-        "https://www.tiktok.com/@jijantesfutbolclub"
-      ],
-      "players": [],
-      "coach": "Marc Carmona",
-      "coachInfo": {},
-      "president": {
-        "id": "gerard-romero",
-        "name": "Gerard Romero",
-        "image": "gerard-romero.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
     "wins": 2,
     "loses": 3,
     "scoredGoals": 15,
@@ -336,6 +278,64 @@
         "id": "perxitaa",
         "name": "Perxitaa",
         "image": "perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 5,
+    "scoredGoals": 9,
+    "concededGoals": 16,
+    "yellowCards": 5,
+    "redCards": 0,
+    "team": {
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
+      "url": "",
+      "channel": "https://twitch.tv/rivers_gg",
+      "socialNetworks": [
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
+      ],
+      "players": [],
+      "coach": "Gerardo Torrado",
+      "coachInfo": {},
+      "president": {
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "rivers.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 0,
+    "loses": 5,
+    "scoredGoals": 11,
+    "concededGoals": 19,
+    "yellowCards": 3,
+    "redCards": 0,
+    "team": {
+      "id": "jijantes-fc",
+      "name": "Jijantes FC",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/jijantes.svg",
+      "url": "",
+      "channel": "https://twitch.tv/gerardromero",
+      "socialNetworks": [
+        "https://www.twitch.tv/gerardromero",
+        "https://www.instagram.com/jijantesfc/?hl=es",
+        "https://twitter.com/JijantesFC?s=20&t=40PQRh7lXf2HVdUs1pe-9w",
+        "https://www.tiktok.com/@jijantesfutbolclub"
+      ],
+      "players": [],
+      "coach": "Marc Carmona",
+      "coachInfo": {},
+      "president": {
+        "id": "gerard-romero",
+        "name": "Gerard Romero",
+        "image": "gerard-romero.png",
         "teamId": 0
       }
     }
