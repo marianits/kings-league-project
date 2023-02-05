@@ -1,8 +1,8 @@
 [
   {
-    "wins": 3,
+    "wins": 4,
     "loses": 1,
-    "scoredGoals": 11,
+    "scoredGoals": 12,
     "concededGoals": 5,
     "yellowCards": 6,
     "redCards": 1,
@@ -27,37 +27,10 @@
     }
   },
   {
-    "wins": 3,
+    "wins": 4,
     "loses": 1,
-    "scoredGoals": 14,
-    "concededGoals": 9,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "ultimate-mostoles",
-      "name": "Ultimate Móstoles",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/ultimate-mostoles.svg",
-      "url": "",
-      "channel": "https://youtube.com/DjMaRiiO",
-      "socialNetworks": [
-        "https://m.youtube.com/user/DjMaRiiO/videos"
-      ],
-      "players": [],
-      "coach": "Nacho Castro",
-      "coachInfo": {},
-      "president": {
-        "id": "djmariio",
-        "name": "DjMaRiiO",
-        "image": "djmariio.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 3,
-    "loses": 1,
-    "scoredGoals": 14,
-    "concededGoals": 10,
+    "scoredGoals": 18,
+    "concededGoals": 12,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -82,10 +55,64 @@
     }
   },
   {
-    "wins": 3,
+    "wins": 4,
     "loses": 1,
-    "scoredGoals": 14,
-    "concededGoals": 12,
+    "scoredGoals": 7,
+    "concededGoals": 6,
+    "yellowCards": 6,
+    "redCards": 0,
+    "team": {
+      "id": "kunisports",
+      "name": "Kunisports",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/kunisports.svg",
+      "url": "",
+      "channel": "https://twitch.tv/slakun10",
+      "socialNetworks": [
+        "https://www.twitch.tv/slakun10"
+      ],
+      "players": [],
+      "coach": "Martín Posse",
+      "coachInfo": {},
+      "president": {
+        "id": "kun-aguero",
+        "name": "Kun Agüero",
+        "image": "kun-aguero.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 3,
+    "loses": -4,
+    "scoredGoals": 15,
+    "concededGoals": 7,
+    "yellowCards": 1,
+    "redCards": 0,
+    "team": {
+      "id": "ultimate-mostoles",
+      "name": "Ultimate Móstoles",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/ultimate-mostoles.svg",
+      "url": "",
+      "channel": "https://youtube.com/DjMaRiiO",
+      "socialNetworks": [
+        "https://m.youtube.com/user/DjMaRiiO/videos"
+      ],
+      "players": [],
+      "coach": "Nacho Castro",
+      "coachInfo": {},
+      "president": {
+        "id": "djmariio",
+        "name": "DjMaRiiO",
+        "image": "djmariio.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 3,
+    "loses": -1,
+    "scoredGoals": 16,
+    "concededGoals": 15,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -113,36 +140,63 @@
   },
   {
     "wins": 3,
-    "loses": 1,
-    "scoredGoals": 7,
-    "concededGoals": 5,
-    "yellowCards": 6,
+    "loses": 2,
+    "scoredGoals": 15,
+    "concededGoals": 15,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "kunisports",
-      "name": "Kunisports",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/kunisports.svg",
+      "id": "aniquiladores-fc",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/aniquiladores.svg",
       "url": "",
-      "channel": "https://twitch.tv/slakun10",
+      "channel": "https://twitch.tv/juansguarnizo",
       "socialNetworks": [
-        "https://www.twitch.tv/slakun10"
+        "https://www.twitch.tv/juansguarnizo"
       ],
       "players": [],
-      "coach": "Martín Posse",
+      "coach": "Sergio Verdirame",
       "coachInfo": {},
       "president": {
-        "id": "kun-aguero",
-        "name": "Kun Agüero",
-        "image": "kun-aguero.png",
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "juan-guarnizo.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 3,
+    "loses": 2,
+    "scoredGoals": 11,
+    "concededGoals": 12,
+    "yellowCards": 3,
+    "redCards": 0,
+    "team": {
+      "id": "xbuyer-team",
+      "name": "XBUYER TEAM",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/xbuyer.svg",
+      "url": "",
+      "channel": "https://www.youtube.com/xbuyer",
+      "socialNetworks": [
+        "https://www.youtube.com/xbuyer"
+      ],
+      "players": [],
+      "coach": "Víctor González",
+      "coachInfo": {},
+      "president": {
+        "id": "hnos-buyer",
+        "name": "Hnos. Buyer",
+        "image": "hnos-buyer.png",
         "teamId": 0
       }
     }
   },
   {
     "wins": 2,
-    "loses": 2,
+    "loses": 3,
     "scoredGoals": 13,
-    "concededGoals": 9,
+    "concededGoals": 10,
     "yellowCards": 2,
     "redCards": 0,
     "team": {
@@ -169,124 +223,38 @@
     }
   },
   {
-    "wins": 2,
+    "wins": 0,
     "loses": 2,
-    "scoredGoals": 8,
-    "concededGoals": 10,
-    "yellowCards": 1,
+    "scoredGoals": 9,
+    "concededGoals": 16,
+    "yellowCards": 5,
     "redCards": 0,
     "team": {
-      "id": "aniquiladores-fc",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/aniquiladores.svg",
+      "id": "pio-fc",
+      "name": "PIO FC",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
       "url": "",
-      "channel": "https://twitch.tv/juansguarnizo",
+      "channel": "https://twitch.tv/rivers_gg",
       "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
+        "https://www.twitch.tv/rivers_gg",
+        "https://twitter.com/PIO_FC"
       ],
       "players": [],
-      "coach": "Sergio Verdirame",
+      "coach": "Gerardo Torrado",
       "coachInfo": {},
       "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "juan-guarnizo.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 2,
-    "scoredGoals": 8,
-    "concededGoals": 10,
-    "yellowCards": 3,
-    "redCards": 0,
-    "team": {
-      "id": "xbuyer-team",
-      "name": "XBUYER TEAM",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/xbuyer.svg",
-      "url": "",
-      "channel": "https://www.youtube.com/xbuyer",
-      "socialNetworks": [
-        "https://www.youtube.com/xbuyer"
-      ],
-      "players": [],
-      "coach": "Víctor González",
-      "coachInfo": {},
-      "president": {
-        "id": "hnos-buyer",
-        "name": "Hnos. Buyer",
-        "image": "hnos-buyer.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 2,
-    "loses": 2,
-    "scoredGoals": 12,
-    "concededGoals": 15,
-    "yellowCards": 2,
-    "redCards": 1,
-    "team": {
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/los-troncos.svg",
-      "url": "",
-      "channel": "https://twitch.tv/perxitaa",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "coach": "Pol Font",
-      "coachInfo": {},
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "perxitaa.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 1,
-    "loses": 3,
-    "scoredGoals": 10,
-    "concededGoals": 14,
-    "yellowCards": 1,
-    "redCards": 0,
-    "team": {
-      "id": "rayo-barcelona",
-      "name": "Rayo de Barcelona",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
-      "url": "",
-      "channel": "https://twitch.tv/spursito",
-      "socialNetworks": [
-        "https://www.twitch.tv/spursito",
-        "https://www.instagram.com/rayodebarcelona/?hl=es",
-        "https://twitter.com/RayodeBarcelona",
-        "https://www.tiktok.com/@rayodebarcelona"
-      ],
-      "players": [],
-      "coach": "JuanluDBZ",
-      "coachInfo": {},
-      "president": {
-        "id": "spursito",
-        "name": "Spursito",
-        "image": "spursito.png",
+        "id": "rivers",
+        "name": "Rivers",
+        "image": "rivers.png",
         "teamId": 0
       }
     }
   },
   {
     "wins": 0,
-    "loses": 4,
-    "scoredGoals": 9,
-    "concededGoals": 15,
+    "loses": 5,
+    "scoredGoals": 11,
+    "concededGoals": 19,
     "yellowCards": 3,
     "redCards": 0,
     "team": {
@@ -313,29 +281,61 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 4,
-    "scoredGoals": 5,
-    "concededGoals": 11,
-    "yellowCards": 5,
+    "wins": 2,
+    "loses": 3,
+    "scoredGoals": 15,
+    "concededGoals": 18,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
-      "id": "pio-fc",
-      "name": "PIO FC",
-      "image": "https://kings-league-api.midudev.workers.dev/static/logos/pio.svg",
+      "id": "rayo-barcelona",
+      "name": "Rayo de Barcelona",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/rayo-barcelona.svg",
       "url": "",
-      "channel": "https://twitch.tv/rivers_gg",
+      "channel": "https://twitch.tv/spursito",
       "socialNetworks": [
-        "https://www.twitch.tv/rivers_gg",
-        "https://twitter.com/PIO_FC"
+        "https://www.twitch.tv/spursito",
+        "https://www.instagram.com/rayodebarcelona/?hl=es",
+        "https://twitter.com/RayodeBarcelona",
+        "https://www.tiktok.com/@rayodebarcelona"
       ],
       "players": [],
-      "coach": "Gerardo Torrado",
+      "coach": "JuanluDBZ",
       "coachInfo": {},
       "president": {
-        "id": "rivers",
-        "name": "Rivers",
-        "image": "rivers.png",
+        "id": "spursito",
+        "name": "Spursito",
+        "image": "spursito.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 2,
+    "loses": 3,
+    "scoredGoals": 17,
+    "concededGoals": 22,
+    "yellowCards": 2,
+    "redCards": 1,
+    "team": {
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.midudev.workers.dev/static/logos/los-troncos.svg",
+      "url": "",
+      "channel": "https://twitch.tv/perxitaa",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "coach": "Pol Font",
+      "coachInfo": {},
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "perxitaa.png",
         "teamId": 0
       }
     }
