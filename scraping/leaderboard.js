@@ -1,15 +1,5 @@
-import * as cheerio from 'cheerio'
 import { TEAMS, PRESIDENTS, writeDBFile } from '../db/index.js'
-
-const URLS = {
-  leaderBoard: 'https://kingsleague.pro/estadisticas/clasificacion/'
-}
-
-async function scrape (url) {
-  const res = await fetch(url)
-  const html = await res.text()
-  return cheerio.load(html)
-};
+import { URLS, scrape } from './utils'
 
 async function getLeaderBoard () {
   const $ = await scrape(URLS.leaderBoard)
